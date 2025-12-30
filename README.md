@@ -2,7 +2,7 @@
 
 A RESTful API for an e-commerce platform built with Spring Boot, JWT authentication, and PostgreSQL.
 
-## 🏗️ Architecture
+## Architecture
 
 This application follows a layered architecture pattern with clear separation of concerns:
 
@@ -27,7 +27,7 @@ This application follows a layered architecture pattern with clear separation of
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 📊 UML Class Diagram
+## UML Class Diagram
 
 ### Entity Model
 
@@ -283,7 +283,7 @@ classDiagram
     AuthResponseDto --> UserDto
 ```
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Framework**: Spring Boot 3.2.1
 - **Language**: Java 21
@@ -295,7 +295,7 @@ classDiagram
 - **Documentation**: SpringDoc OpenAPI 2.5.0
 - **Container**: Docker Compose
 
-## 📦 Key Dependencies
+## Key Dependencies
 
 | Dependency | Version | Purpose |
 |------------|---------|---------|
@@ -308,7 +308,7 @@ classDiagram
 | OpenFeign | 2023.0.3 | HTTP client |
 | SpringDoc | 2.5.0 | API documentation |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -342,13 +342,13 @@ mvn spring-boot:run
 
 The API will be available at `http://localhost:8080`
 
-## 📚 API Documentation
+## API Documentation
 
 Once the application is running, access the interactive API documentation at:
 - Swagger UI: `http://localhost:8080/swagger-ui.html`
 - OpenAPI JSON: `http://localhost:8080/v3/api-docs`
 
-## 🔐 Security
+## Security
 
 The API uses JWT (JSON Web Token) for authentication. The security flow:
 
@@ -362,7 +362,7 @@ The API uses JWT (JSON Web Token) for authentication. The security flow:
 - **CUSTOMER**: Default role for registered users
 - **ADMIN**: Administrative privileges
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/main/java/com/ecommerce/
@@ -402,7 +402,7 @@ src/main/java/com/ecommerce/
 └── EcommerceApplication.java  # Main application class
 ```
 
-## 🔄 Database Schema
+## Database Schema
 
 The application uses the following main tables:
 - `users` - User accounts and authentication
@@ -410,7 +410,7 @@ The application uses the following main tables:
 - `orders` - Customer orders
 - `order_items` - Individual items within orders
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -418,7 +418,7 @@ The application uses the following main tables:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is a demo application for learning purposes.
 
